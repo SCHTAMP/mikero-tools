@@ -9,5 +9,3 @@ COPY bin/ /usr/local/bin
 COPY lib/ /usr/local/lib
 
 RUN ldconfig
-
-RUN makepbo -h
